@@ -13,6 +13,7 @@ def select_winner(passengers)
   pass_values.each do |passenger|
     if passenger[0] == "A"
       puts "starts with A"
+      puts passengers.fetch(passenger)
       if passengers[passenger] == :suite_a
         puts "winner"
       end
