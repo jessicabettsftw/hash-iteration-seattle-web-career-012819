@@ -5,7 +5,11 @@
 # }
 
 def happy_birthday(birthday_kids)
-  # add your code snippet here!
+  birthday_keys = birthday_kids.keys
+  
+  birthday_keys.each do |kid|
+    puts "Happy Birthday #{kid}! You are now #{birthday_kids[kid]} years old!"
+  end
 end
 
 
