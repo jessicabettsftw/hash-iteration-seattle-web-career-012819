@@ -7,5 +7,15 @@
 # }
 
 def select_winner(passengers)
-  # add the code snippet here!
+  
+  pass_values = passengers.values
+  
+  pass_values.each do |passenger|
+    if passenger[0] == "A"
+      if passengers[passenger] == :suite_a
+        puts "winner"
+      end
+    end
+  end
+      re
 end
