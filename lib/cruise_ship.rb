@@ -13,7 +13,7 @@ def select_winner(passengers)
   pass_values.each do |passenger|
     if passenger[0] == "A"
       if passengers.key(passenger) == :suite_a
-        puts "winner"
+        return passenger
       end
     end
   end
